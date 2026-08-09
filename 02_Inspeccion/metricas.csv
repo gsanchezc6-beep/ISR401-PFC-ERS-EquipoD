@@ -1,44 +1,44 @@
-﻿Metricas de la inspeccion Fagan - ERS MundiPets v1.0;;;;
-Documento;ERS_v1.0.pdf;Paginas efectivas;147;
-Defectos unicos consolidados;18;Esfuerzo total;13,18;horas-persona
-Fuente de los datos;02_Inspeccion/AnexoB_registro_defectos.csv y registro_horas_preparacion.csv;;;
-;;;;
-M1 - DENSIDAD DE DEFECTOS;;;;
-Defectos;Paginas;Densidad (def./pagina);;
-18;147;0,122;;
+﻿Metricas de la inspeccion Fagan - ERS MundiPets v1.0;;;;,,
+Documento;ERS_v1.0.pdf;Paginas efectivas;147;,,
+Defectos unicos consolidados;18;Esfuerzo total;13,18;horas-persona,
+Fuente de los datos;02_Inspeccion/AnexoB_registro_defectos.csv y registro_horas_preparacion.csv;;;,,
+;;;;,,
+M1 - DENSIDAD DE DEFECTOS;;;;,,
+Defectos;Paginas;Densidad (def./pagina);;,,
+18;147;0,122;;,
 Interpretacion;Con 0,122 defectos por pagina el ERS presenta una densidad baja para un documento de 147 paginas; el valor debe leerse como cota inferior porque el ritmo de preparacion (20,8 pag./h) supera el rango recomendado por Fagan.;;;
-;;;;
-M2 - DISTRIBUCION POR TIPO (grafico de barras);;;;
-Tipo de defecto;Cantidad;Porcentaje;;
-Ambiguedad;3;16,7%;;
-Completitud;3;16,7%;;
-Consistencia;3;16,7%;;
-Verificabilidad;3;16,7%;;
-Trazabilidad;3;16,7%;;
-Factibilidad;3;16,7%;;
-Interpretacion;La distribucion uniforme es consecuencia del diseno de la preparacion (un defecto por propiedad y por inspector) y no de una debilidad homogenea del ERS; por tanto esta metrica describe la cobertura del proceso de inspeccion, no el perfil de calidad del documento.;;;
-;;;;
-M3 - DISTRIBUCION POR SEVERIDAD (grafico circular);;;;
-Severidad;Cantidad;Porcentaje;;
-Critico;2;11,1%;;
-Mayor;12;66,7%;;
-Menor;4;22,2%;;
-Interpretacion;Dos tercios de los hallazgos son mayores y solo un 22 % menores: el ERS no falla en la forma sino en la consistencia entre secciones y en la trazabilidad de sus artefactos, que es donde se concentra el esfuerzo de correccion hacia la v1.1.;;;
-;;;;
-M4 - TASA DE DETECCION POR INSPECTOR;;;;
-Inspector;Rol Fagan;Defectos;Horas de preparacion;Defectos por hora
+;;;;,,
+M2 - DISTRIBUCION POR TIPO (grafico de barras);;;;,,
+Tipo de defecto;Cantidad;Porcentaje;;,,
+Ambiguedad;3;16,7%;;,
+Completitud;3;16,7%;;,
+Consistencia;3;16,7%;;,
+Verificabilidad;3;16,7%;;,
+Trazabilidad;3;16,7%;;,
+Factibilidad;3;16,7%;;,
+Interpretacion;La distribucion uniforme es consecuencia del diseno de la preparacion (un defecto por propiedad y por inspector) y no de una debilidad homogenea del ERS; por tanto esta metrica describe la cobertura del proceso de inspeccion, no el perfil de calidad del documento.;;;,
+;;;;,,
+M3 - DISTRIBUCION POR SEVERIDAD (grafico circular);;;;,,
+Severidad;Cantidad;Porcentaje;;,,
+Critico;2;11,1%;;,
+Mayor;12;66,7%;;,
+Menor;4;22,2%;;,
+Interpretacion;Dos tercios de los hallazgos son mayores y solo un 22 % menores: el ERS no falla en la forma sino en la consistencia entre secciones y en la trazabilidad de sus artefactos, que es donde se concentra el esfuerzo de correccion hacia la v1.1.;;;,
+;;;;,,
+M4 - TASA DE DETECCION POR INSPECTOR;;;;,,
+Inspector;Rol Fagan;Defectos;Horas de preparacion;Defectos por hora,,
 Morales Sanchez Gary Alejandro;Moderador;6;2,25;2,67
 Sanchez Cornejo Gary Alberto;Lector + Inspector 1;6;2,58;2,33
 Cedeno Coronado Wilson Lizandro;Inspector 2;6;2,25;2,67
 Total / Media;;18;7,08;2,54
-Interpretacion;Los tres inspectores aportaron el mismo numero de defectos y ninguno quedo por debajo del minimo de 6 exigido; la menor tasa horaria de Sanchez es coherente con su doble rol de Lector e Inspector 1 autorizado por el docente.;;;
-;;;;
-M5 - ESFUERZO TOTAL;;;;
-Actividad;Horas-persona;Porcentaje;;
+Interpretacion;Los tres inspectores aportaron el mismo numero de defectos y ninguno quedo por debajo del minimo de 6 exigido; la menor tasa horaria de Sanchez es coherente con su doble rol de Lector e Inspector 1 autorizado por el docente.;;;,,
+;;;;,,
+M5 - ESFUERZO TOTAL;;;;,,
+Actividad;Horas-persona;Porcentaje;;,,
 Preparacion individual;7,08;53,7%;;
 Reunion de inspeccion;4,60;34,9%;;
 Consolidacion y metricas;1,50;11,4%;;
-TOTAL;13,18;100%;;
-Eficiencia de deteccion;1,37;defectos por hora-persona;;
-Ritmo de preparacion;20,8;paginas por hora;;
+TOTAL;13,18;100%;;,
+Eficiencia de deteccion;1,37;defectos por hora-persona;;,
+Ritmo de preparacion;20,8;paginas por hora;;,
 Interpretacion;Mas de la mitad del esfuerzo se invirtio en la preparacion individual, que es lo que Fagan identifica como la fase determinante del rendimiento de la inspeccion; el coste unitario de 1,37 defectos por hora-persona situa la deteccion temprana muy por debajo del coste de corregir los mismos defectos en fases posteriores.;;;
