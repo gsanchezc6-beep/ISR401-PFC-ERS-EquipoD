@@ -37,6 +37,7 @@ Repositorio oficial: **ISR401-PFC-ERS-EquipoD**
 | **Wilson Lizandro Cedeño Coronado** | Inspector 2 |
 
 Los roles fueron definidos para la inspección formal del ERS de acuerdo con el método Fagan.
+Debido a que el grupo está conformado por tres integrantes y la práctica establece cuatro roles para la inspección Fagan, fue necesario asignar dos roles a un mismo integrante. En consecuencia, el rol de Lector y Inspector 1 fue desempeñado por el mismo integrante, mientras que los roles de Moderador e Inspector 2 fueron asignados a los otros dos integrantes.
 
 ---
 
